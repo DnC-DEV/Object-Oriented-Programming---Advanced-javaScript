@@ -1,20 +1,17 @@
-/*Crie uma classe patinete e apresente os atributos e métodos referentes a esta classe, 
-em seguida crie um objeto patinete, defina as instâncias deste objeto e apresente as informações deste objeto no console.*/
-class Patinete {
-    public roda: boolean;
-    public guidao: boolean;
-    public tamanho: number;
+class Paciente {
+    public nome: string;
+    public numeroDoPaciente: number;
+    public numeroDoQuarto: number;
+    }
 
-}
+    const pacinete = new Paciente();
 
-    const patinete = new Patinete();
-
-    console.log('Class Patinete: ');
+    console.log('Class Paciente: ');
         
-        const roda = patinete.roda = true;
-        const guidao = patinete.guidao = true;
-        const tamanho = patinete.tamanho = 1.30;
+        const nome = pacinete.nome = 'Daniel Corrêa';
+        const numeroDoPaciente = pacinete.numeroDoPaciente = 155;
+        const numeroDoQuarto = pacinete.numeroDoQuarto = 3;
 
-        console.log(`O patinete tem rodas? ${roda}`);
-        console.log(`O patinete tem guidão? ${guidao}`);
-        console.log(`O temanho do patinete é: ${tamanho} mts`);
+        console.log(`O nome do paciente é: ${nome}`);
+        console.log(`O numero do paciente é: ${numeroDoPaciente}`);
+        console.log(`O numero do quarto do paciente é: ${numeroDoQuarto}`);
