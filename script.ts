@@ -1,17 +1,17 @@
-class Paciente {
-    public nome: string;
-    public numeroDoPaciente: number;
-    public numeroDoQuarto: number;
+class Patinete {
+    public guidao: boolean;
+    public rodas: boolean;
+    public altura: number;
     }
 
-    const pacinete = new Paciente();
+    const patinete = new Patinete();
 
-    console.log('Class Paciente: ');
+    console.log('Class Patinete: ');
         
-        const nome = pacinete.nome = 'Daniel Corrêa';
-        const numeroDoPaciente = pacinete.numeroDoPaciente = 155;
-        const numeroDoQuarto = pacinete.numeroDoQuarto = 3;
+        const guidao = patinete.guidao = true;
+        const rodas = patinete.rodas = true;
+        const altura = patinete.altura = 1.3;
 
-        console.log(`O nome do paciente é: ${nome}`);
-        console.log(`O numero do paciente é: ${numeroDoPaciente}`);
-        console.log(`O numero do quarto do paciente é: ${numeroDoQuarto}`);
+        console.log(`O patinete tem guião? ${guidao}`);
+        console.log(`O patinete tem rodas? ${rodas}`);
+        console.log(`A altura do patinete é: ${altura}`);
